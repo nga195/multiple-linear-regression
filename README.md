@@ -55,9 +55,9 @@ Multiple linear regression models offer several advantages, particularly when an
 
 5. Understanding Interactions: The model can be extended to understand the interactions between different independent variables and how these interactions impact the dependent variable. For example, the interaction between house age and distance to the nearest MRT station might be significant in predicting house prices.
 
-6.Identifying Outliers: Multiple linear regression analysis can help identify outliers in the dataset. These are observations that have a large residual, i.e., a large difference between the observed and predicted values of the dependent variable.
+6. Identifying Outliers: Multiple linear regression analysis can help identify outliers in the dataset. These are observations that have a large residual, i.e., a large difference between the observed and predicted values of the dependent variable.
 
-7.Model Improvement: The methodology allows for transformations and model selection processes to improve the model fit. For instance, if the relationship between the dependent and independent variables is not linear, transformations (like logarithmic or reciprocal) can be applied to achieve linearity.
+7. Model Improvement: The methodology allows for transformations and model selection processes to improve the model fit. For instance, if the relationship between the dependent and independent variables is not linear, transformations (like logarithmic or reciprocal) can be applied to achieve linearity.
 
 ## Analysis
 
