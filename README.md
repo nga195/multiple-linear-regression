@@ -25,14 +25,14 @@ The data source for this report is a historical dataset of real estate valuation
 The dataset includes the following variables:
 
 **Response Variable:**
-- Y= house price of unit area (10000 New Taiwan Dollar/Ping, a local currency unit, 1 Ping = 3.3 m2)
+- $$y$$= house price of unit area (10000 New Taiwan Dollar/Ping, a local currency unit, 1 Ping = 3.3 m2)
 
 **Regressors:**
-- X1= the house age (unit: year)
-- X2= the distance to the nearest MRT station (unit: metre)
-- X3= the number of convenience stores in the living circle on foot (integer)
-- X4= the geographic coordinate, latitude. (unit: degree)
-- X5= the geographic coordinate, longitude. (unit: degree)
+- $$x1$$= the house age (unit: year)
+- $$x2$$= the distance to the nearest MRT station (unit: metre)
+- $$x3$$= the number of convenience stores in the living circle on foot (integer)
+- $$x4$$= the geographic coordinate, latitude. (unit: degree)
+- $$x5$$= the geographic coordinate, longitude. (unit: degree)
 
 
 This dataset, with its diverse set of variables, offers a robust foundation for analyzing and predicting real estate prices in Sindian District, New Taipei City, Taiwan. The insights derived from this data can be instrumental in understanding the dynamics of the real estate market in the area.
@@ -63,7 +63,7 @@ Multiple linear regression models offer several advantages, particularly when an
 
 **Model Specification**: The initial model includes all the independent variables of interest, with the house price of unit area as the dependent variable. The model is represented as: 
 
-$$y=−4945.59−0.2689x1−0.004259x2+1.1630x3+237.7672x4−7.8054x5$$
+$$y = −4945.59 − 0.2689x1 − 0.004259x2 + 1.1630x3 + 237.7672x4 − 7.8054x5$$
 
 
 
@@ -81,7 +81,7 @@ $$y=−4945.59−0.2689x1−0.004259x2+1.1630x3+237.7672x4−7.8054x5$$
 
 **Reduced Model**: Based on the analysis, we define a new reduced model excluding the insignificant parameters. For example, if parameter x5 (the geographic coordinate, longitude) is found to be insignificant, the reduced model would be:   
 
-  y  =  −5916.0064  −  0.26872X1 − 0.00418X2 − 1.16478X3 − 238.63573X4
+ $$ y  =  −5916.0064  −  0.26872x1 − 0.00418x2 − 1.16478x3 − 238.63573x4 $$
 
 
 
@@ -93,7 +93,7 @@ $$y=−4945.59−0.2689x1−0.004259x2+1.1630x3+237.7672x4−7.8054x5$$
 
 **Reciprocal Transformation**: The predicted model based on stepwise selection after reciprocal transformation might be: 
 
-  y = 7.96063 + 0.0002042X1 + 0.00000572X2 − 0.00065271X3 − 0.31788X4
+ $$ y = 7.96063 + 0.0002042X1 + 0.00000572X2 − 0.00065271X3 − 0.31788X4 $$
 
 
 
@@ -109,7 +109,7 @@ This analysis provides a comprehensive approach to performing multiple linear re
 
 After analysing the four reduced models and the full model, we recommend one of the subset models, the reciprocal model without the outliers as the final model, 
 
-  y = 6.51242 + 0.000172871X1 + 0.00000617X2 - 0.00057680X3 - 0.25991X4
+  $$y = 6.51242 + 0.000172871x1 + 0.00000617x2 - 0.00057680x3 - 0.25991x4$$
   
 We chose this as our final model for a few reasons. First of all, it is simpler than the full model with one less variable while also having a smaller variance. On top of that, it has the lowest PRESS value of 0.01180 and the second highest adjusted R2 of 0.7985 which is just slightly lower than the log model without outliers. With the least squares estimators above, we can better predict the house prices in Xindian District in Taipei City given the information of the house age, the distance to the nearest MRT station, the number of convenience stores in the living circle on foot, and the latitude coordinates. We are concluding that above regressors are influencing the response variable, house prices to a certain extent.
 
