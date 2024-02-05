@@ -7,7 +7,7 @@ Forecast real estates prices using Multiple Linear Regression
 - [Data Description](#data-description)
 - [Methodology](#methodology)
 - [Analysis](#analysis)
-- [Result and discussion](#result-adn-discussion)
+- [Result and discussion](#result-and-discussion)
 - [References](#references)
 
 
