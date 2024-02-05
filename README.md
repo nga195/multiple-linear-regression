@@ -93,7 +93,7 @@ $$y = −4945.59 − 0.2689x1 − 0.004259x2 + 1.1630x3 + 237.7672x4 − 7.8054x
 
 **Reciprocal Transformation**: The predicted model based on stepwise selection after reciprocal transformation might be: 
 
- $$ y = 7.96063 + 0.0002042X1 + 0.00000572X2 − 0.00065271X3 − 0.31788X4 $$
+ $$ y = 7.96063 + 0.0002042x1 + 0.00000572x2 − 0.00065271x3 − 0.31788x4 $$
 
 
 
