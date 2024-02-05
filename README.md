@@ -61,7 +61,9 @@ Multiple linear regression models offer several advantages, particularly when an
 
 ## Analysis
 
-**Model Specification**: The initial model includes all the independent variables of interest, with the house price of unit area as the dependent variable. The model is represented as: y=−4945.59−0.2689x1−0.004259x2+1.1630x3+237.7672x4−7.8054x5
+**Model Specification**: The initial model includes all the independent variables of interest, with the house price of unit area as the dependent variable. The model is represented as: 
+
+$$y=−4945.59−0.2689x1−0.004259x2+1.1630x3+237.7672x4−7.8054x5$$
 
 
 
