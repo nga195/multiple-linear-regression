@@ -25,14 +25,14 @@ The data source for this report is a historical dataset of real estate valuation
 The dataset includes the following variables:
 
 **Response Variable:**
-- $$y$$= house price of unit area (10000 New Taiwan Dollar/Ping, a local currency unit, 1 Ping = 3.3 m2)
+- y= house price of unit area (10000 New Taiwan Dollar/Ping, a local currency unit, 1 Ping = 3.3 m2)
 
 **Regressors:**
-- $$x1$$= the house age (unit: year)
-- $$x2$$= the distance to the nearest MRT station (unit: metre)
-- $$x3$$= the number of convenience stores in the living circle on foot (integer)
-- $$x4$$= the geographic coordinate, latitude. (unit: degree)
-- $$x5$$= the geographic coordinate, longitude. (unit: degree)
+- x1= the house age (unit: year)
+- x2= the distance to the nearest MRT station (unit: metre)
+- x3= the number of convenience stores in the living circle on foot (integer)
+- x4= the geographic coordinate, latitude. (unit: degree)
+- x5= the geographic coordinate, longitude. (unit: degree)
 
 
 This dataset, with its diverse set of variables, offers a robust foundation for analyzing and predicting real estate prices in Sindian District, New Taipei City, Taiwan. The insights derived from this data can be instrumental in understanding the dynamics of the real estate market in the area.
